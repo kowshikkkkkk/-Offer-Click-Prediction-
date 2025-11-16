@@ -10,6 +10,8 @@ A deep learning solution for predicting customer click-through rates on American
 
 ---
 
+The dataset is from the Unstop competition and cannot be shared publicly due to competition rules. 
+
 ## 📋 Table of Contents
 - [Problem Statement](#problem-statement)
 - [Solution Overview](#solution-overview)
