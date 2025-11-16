@@ -123,7 +123,7 @@ Place the competition datasets in the `data/` folder:
 ### 2. Train Model
 ```bash
 # Run the complete pipeline
-python amex_click_prediction_pipeline.py
+python click_prediction_pipeline.py
 ```
 
 **Expected Runtime:**
@@ -132,12 +132,12 @@ python amex_click_prediction_pipeline.py
 
 **Quick Demo Mode** (for testing):
 ```python
-# In amex_click_prediction_pipeline.py, line 37, set:
+# In click_prediction_pipeline.py, line 37, set:
 DEMO_MODE = True  # Uses 10% of data with 2 epochs (~5 minutes)
 ```
 
 ### 3. Configuration
-Modify hyperparameters in `amex_click_prediction_pipeline.py`:
+Modify hyperparameters in `click_prediction_pipeline.py`:
 ```python
 class Config:
     BATCH_SIZE = 1024
@@ -148,7 +148,7 @@ class Config:
 ```
 
 ### 4. Output Files
-- **Trained model**: `models/best_amex_model.pth`
+- **Trained model**: `models/best_model.pth`
 - **Submission file**: `outputs/submission.csv`
 - **Training logs**: Console output with epoch-wise metrics
 
@@ -186,15 +186,6 @@ AmexClickNN
 
 ---
 
-## 📈 Results
-
-| Metric | Score |
-|--------|-------|
-| Validation AP | 0.XXXX |
-| Test AP | 0.XXXX |
-| Training Time (GPU) | ~30-45 min |
-| Model Parameters | ~XXX,XXX |
-
 ### Performance Insights
 - ✅ Model successfully ranks top-7 offers per customer
 - ✅ Temporal features significantly improved prediction accuracy
@@ -225,7 +216,7 @@ amex-click-prediction/
 ├── notebooks/                         # Jupyter notebooks for EDA
 │   └── EDA_and_visualization.ipynb
 │
-├── amex_click_prediction_pipeline.py  # Main training pipeline
+├── click_prediction_pipeline.py  # Main training pipeline
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                         # Git ignore rules
 ├── README.md                          # Project documentation
@@ -271,19 +262,7 @@ amex-click-prediction/
 - [ ] Create Streamlit dashboard for visualization
 
 
----
 
-## 🚀 Quick Start
-```bash
-# Clone and setup
-git clone https://github.com/yourusername/amex-click-prediction.git
-cd amex-click-prediction
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# Run pipeline
-python amex_click_prediction_pipeline.py
 ```
 
 ---
