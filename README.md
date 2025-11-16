@@ -2,8 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Competition](https://img.shields.io/badge/Competition-Unstop-orange.svg)](https://unstop.com/)
+
 
 A deep learning solution for predicting customer click-through rates on promotional offers, developed for the Unstop ML Competition.
 
