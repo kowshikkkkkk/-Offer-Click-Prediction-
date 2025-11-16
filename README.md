@@ -158,7 +158,7 @@ class Config:
 
 ## 🏗️ Model Architecture
 ```
-AmexClickNN
+ClickNN
 │
 ├── Embedding Layers (Categorical Features)
 │   ├── Customer ID embedding (id2)
@@ -200,7 +200,7 @@ AmexClickNN
 
 ## 📁 Project Structure
 ```
-amex-click-prediction/
+click-prediction/
 │
 ├── data/                              # Dataset files (not tracked in git)
 │   ├── train.parquet
