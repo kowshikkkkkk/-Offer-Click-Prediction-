@@ -89,7 +89,7 @@ This project implements a **deep neural network with embedding layers** for tabu
 ### Setup Instructions
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/amex-click-prediction.git
+git clone https://github.com/yourusername/click-prediction.git
 cd amex-click-prediction
 
 # 2. Create virtual environment (recommended)
