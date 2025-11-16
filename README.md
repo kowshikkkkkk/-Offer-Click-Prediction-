@@ -2,7 +2,8 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Competition](https://img.shields.io/badge/Competition-Unstop-orange.svg)](https://unstop.com/)
 
 A deep learning solution for predicting customer click-through rates on promotional offers, developed for the Unstop ML Competition.
 
@@ -223,4 +224,48 @@ ClickPredictionNN
 
 ---
 
-## 📁 Project Structure
+---
+
+## 🛠️ Technologies Used
+
+- **Deep Learning**: PyTorch 2.0+
+- **Data Processing**: Pandas, NumPy
+- **Machine Learning**: Scikit-learn
+- **Data Format**: Parquet (efficient columnar storage)
+- **Version Control**: Git
+
+---
+
+## 🔮 Future Improvements
+
+### Model Enhancements
+- [ ] Implement K-Fold cross-validation for robust evaluation
+- [ ] Add learning rate scheduling (ReduceLROnPlateau)
+- [ ] Experiment with transformer-based architectures (TabTransformer)
+- [ ] Try attention mechanisms for feature importance
+
+### Feature Engineering
+- [ ] Add customer lifetime value (CLV) features
+- [ ] Create offer category embeddings
+- [ ] Add seasonality features (month, quarter)
+- [ ] Customer segmentation features
+
+### Optimization
+- [ ] Hyperparameter tuning with Optuna/Ray Tune
+- [ ] Ensemble with gradient boosting (LightGBM/XGBoost/CatBoost)
+- [ ] Feature selection using SHAP values
+- [ ] Mixed precision training (FP16) for faster training
+
+### Deployment
+- [ ] Create FastAPI endpoint for real-time predictions
+- [ ] Containerize with Docker
+- [ ] Add model monitoring and drift detection
+- [ ] Create Streamlit dashboard for visualization
+
+---
+
+---
+
+## 🙏 Acknowledgments
+
+- **Unstop** for hosting
