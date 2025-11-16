@@ -1,7 +1,7 @@
 # 🎯 Offer Click Prediction
 
 
-A deep learning solution for predicting customer click-through rates on American Express promotional offers, developed for the Unstop ML Competition.
+A deep learning solution for predicting customer click-through rates on promotional offers, developed for the Unstop ML Competition.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
